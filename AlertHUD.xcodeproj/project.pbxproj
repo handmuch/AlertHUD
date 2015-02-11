@@ -14,6 +14,9 @@
 		E243361219FF8A59005D91CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E243361119FF8A59005D91CA /* Images.xcassets */; };
 		E243361519FF8A59005D91CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E243361319FF8A59005D91CA /* LaunchScreen.xib */; };
 		E243362119FF8A59005D91CA /* AlertHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E243362019FF8A59005D91CA /* AlertHUDTests.m */; };
+		E2A4FC721A08C21E002AFEB4 /* AlertHudBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A4FC711A08C21E002AFEB4 /* AlertHudBackgroundView.m */; };
+		E2A4FC751A08C426002AFEB4 /* AlertHudLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A4FC741A08C426002AFEB4 /* AlertHudLabel.m */; };
+		E2A4FC781A08C698002AFEB4 /* UIWindow+AlertHud.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A4FC771A08C698002AFEB4 /* UIWindow+AlertHud.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		E243361A19FF8A59005D91CA /* AlertHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlertHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E243361F19FF8A59005D91CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E243362019FF8A59005D91CA /* AlertHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertHUDTests.m; sourceTree = "<group>"; };
+		E2A4FC701A08C21E002AFEB4 /* AlertHudBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertHudBackgroundView.h; sourceTree = "<group>"; };
+		E2A4FC711A08C21E002AFEB4 /* AlertHudBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertHudBackgroundView.m; sourceTree = "<group>"; };
+		E2A4FC731A08C426002AFEB4 /* AlertHudLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertHudLabel.h; sourceTree = "<group>"; };
+		E2A4FC741A08C426002AFEB4 /* AlertHudLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertHudLabel.m; sourceTree = "<group>"; };
+		E2A4FC761A08C698002AFEB4 /* UIWindow+AlertHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+AlertHud.h"; sourceTree = "<group>"; };
+		E2A4FC771A08C698002AFEB4 /* UIWindow+AlertHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+AlertHud.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,7 @@
 				E243360919FF8A59005D91CA /* AppDelegate.m */,
 				E243360B19FF8A59005D91CA /* ViewController.h */,
 				E243360C19FF8A59005D91CA /* ViewController.m */,
+				E243362B19FF8AAE005D91CA /* AlertHUD */,
 				E243360E19FF8A59005D91CA /* Main.storyboard */,
 				E243361119FF8A59005D91CA /* Images.xcassets */,
 				E243361319FF8A59005D91CA /* LaunchScreen.xib */,
@@ -117,6 +127,19 @@
 				E243361F19FF8A59005D91CA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E243362B19FF8AAE005D91CA /* AlertHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E2A4FC761A08C698002AFEB4 /* UIWindow+AlertHud.h */,
+				E2A4FC771A08C698002AFEB4 /* UIWindow+AlertHud.m */,
+				E2A4FC701A08C21E002AFEB4 /* AlertHudBackgroundView.h */,
+				E2A4FC711A08C21E002AFEB4 /* AlertHudBackgroundView.m */,
+				E2A4FC731A08C426002AFEB4 /* AlertHudLabel.h */,
+				E2A4FC741A08C426002AFEB4 /* AlertHudLabel.m */,
+			);
+			name = AlertHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,7 +244,10 @@
 			files = (
 				E243360D19FF8A59005D91CA /* ViewController.m in Sources */,
 				E243360A19FF8A59005D91CA /* AppDelegate.m in Sources */,
+				E2A4FC721A08C21E002AFEB4 /* AlertHudBackgroundView.m in Sources */,
 				E243360719FF8A59005D91CA /* main.m in Sources */,
+				E2A4FC781A08C698002AFEB4 /* UIWindow+AlertHud.m in Sources */,
+				E2A4FC751A08C426002AFEB4 /* AlertHudLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +438,7 @@
 				E243362619FF8A59005D91CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E243362719FF8A59005D91CA /* Build configuration list for PBXNativeTarget "AlertHUDTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +447,7 @@
 				E243362919FF8A59005D91CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

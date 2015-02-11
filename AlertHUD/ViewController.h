@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+#import "UIWindow+AlertHUD.h"
+
 @interface ViewController : UIViewController
 
 
