@@ -21,6 +21,7 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+//what the fuck
 - (void)initMainView
 {
     UIButton *showButton = [[UIButton alloc]initWithFrame:CGRectMake(30, 30, 80, 30)];

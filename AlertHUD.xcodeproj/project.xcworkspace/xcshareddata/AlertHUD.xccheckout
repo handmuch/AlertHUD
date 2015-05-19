@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D623848F-25DB-436B-86BF-2F9596815150</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AlertHUD</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2A6E679318FCC6149C58D73F48985C8DD25534C1</key>
+		<string>https://github.com/handmuch/AlertHUD.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AlertHUD.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2A6E679318FCC6149C58D73F48985C8DD25534C1</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/handmuch/AlertHUD.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2A6E679318FCC6149C58D73F48985C8DD25534C1</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2A6E679318FCC6149C58D73F48985C8DD25534C1</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AlertHUD</string>
+		</dict>
+	</array>
+</dict>
+</plist>
